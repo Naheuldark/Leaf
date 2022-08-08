@@ -17,11 +17,12 @@ project "Leaf"
 	}
 
 	includedirs {
+		"src",
 		"%{IncludeDir.GLFW}",
 		"%{IncludeDir.ImGui}",
 		"%{IncludeDir.glm}",
-		"%{IncludeDir.stb_image}",
 		"%{IncludeDir.VulkanSDK}",
+		"%{IncludeDir.stb_image}",
 	}
 
 	links {

@@ -31,6 +31,7 @@ project "LeafApp"
 
 	filter "system:windows"
 		systemversion "latest"
+		defines "LF_PLATFORM_WINDOWS"
 
 	filter "configurations:Debug"
 		defines "LF_DEBUG"

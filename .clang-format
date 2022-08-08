@@ -1,0 +1,17 @@
+# Format Style Options - Created with Clang Power Tools
+---
+Language: Cpp
+BasedOnStyle: LLVM
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: Left
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+ColumnLimit: 150
+FixNamespaceComments: false
+IndentCaseLabels: true
+IndentWidth: 4
+PointerAlignment: Left
+TabWidth: 4
+...

@@ -20,3 +20,13 @@ LibraryDir["VulkanSDK"] = "%{VULKAN_SDK}/Lib"
 -- Library declarations (.lib)
 Library = {}
 Library["Vulkan"] = "%{LibraryDir.VulkanSDK}/vulkan-1.lib"
+
+-- Project Includes
+group "Dependencies"
+	include "vendor/GLFW"
+	include "vendor/imgui"
+group ""
+
+group "Core"
+	include "Leaf"
+group ""

@@ -17,7 +17,7 @@ project "LeafApp"
 	}
 
 	includedirs {
-		"%{wks.location}/Leaf/src",
+		"../Leaf/src",
 		"%{IncludeDir.GLFW}",
 		"%{IncludeDir.ImGui}",
 		"%{IncludeDir.glm}",
